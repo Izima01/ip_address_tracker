@@ -14,7 +14,7 @@ function App() {
   const [ipdata, setIPData] = useState<ipInterface>({} as ipInterface);
   const [latLong, setLatLong] = useState <[number, number]>([50.5, 30.5]);
   const [address, setAddress] = useState("");
-  const apiKey = import.meta.env.VITE_ipify_apiKey;
+  const apiKey = "at_PcwNXMEu4dxTLyQWmVDL5ZDcjnUct";
   const [isLoading, setIsLoading] = useState(false);
   const [showDisplay, setShowDisplay] = useState(true);
   const url = `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}`;
